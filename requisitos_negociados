@@ -2,29 +2,20 @@ Priorizacion requisitos funcionales:
 
 Alta prioridad:
 RF1 – Autenticación segura
-
 RF2 – Autenticación biométrica
-
 RF3 – Consulta de saldo
-
 RF4 – Consulta de movimientos
-
 RF5 – Transferencias nacionales
-
 RF8 – Notificaciones en tiempo real
 
 Media prioridad:
 RF6 – Transferencias internacionales
-
 RF7 – Gestión de tarjetas
-
 RF9 – Pagos móviles (QR / Bizum)
 
 Baja prioridad:
 RF10 – Simulación de préstamos
-
 RF11 – Actualización de datos personales
-
 RF12 – Chat de soporte
 
 
@@ -32,18 +23,13 @@ Priorizacion requisitos no funcionales:
 
 Obligatorios:
 RNF1 – Rendimiento (<2s)
-
 RNF2 – Disponibilidad (99,9%)
-
 RNF3 – Seguridad (PSD2, RGPD)
-
 RNF4 – Encriptación AES‑256
-
 RNF8 – Auditoría de operaciones
 
 Recomendados:
 RNF6 – Compatibilidad Android/iOS
-
 RNF7 – Usabilidad y accesibilidad
 
 Escalables:
