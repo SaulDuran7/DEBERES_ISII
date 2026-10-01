@@ -1,1 +1,65 @@
+Priorizacion requisitos funcionales:
 
+Alta prioridad:
+RF1 – Autenticación segura
+
+RF2 – Autenticación biométrica
+
+RF3 – Consulta de saldo
+
+RF4 – Consulta de movimientos
+
+RF5 – Transferencias nacionales
+
+RF8 – Notificaciones en tiempo real
+
+Media prioridad:
+RF6 – Transferencias internacionales
+
+RF7 – Gestión de tarjetas
+
+RF9 – Pagos móviles (QR / Bizum)
+
+Baja prioridad:
+RF10 – Simulación de préstamos
+
+RF11 – Actualización de datos personales
+
+RF12 – Chat de soporte
+
+
+Priorizacion requisitos no funcionales:
+
+Obligatorios:
+RNF1 – Rendimiento (<2s)
+
+RNF2 – Disponibilidad (99,9%)
+
+RNF3 – Seguridad (PSD2, RGPD)
+
+RNF4 – Encriptación AES‑256
+
+RNF8 – Auditoría de operaciones
+
+Recomendados:
+RNF6 – Compatibilidad Android/iOS
+
+RNF7 – Usabilidad y accesibilidad
+
+Escalables:
+RNF5 – Escalabilidad
+
+
+Requisitos aceptados sin cambios:
+Funcionales: RF1, RF2, RF3, RF4, RF5, RF6, RF7, RF8, RF9
+No funcionales: RNF1, RNF2, RNF3, RNF4, RNF5, RNF6, RNF7, RNF8
+
+Requisitos modificados:
+RF10 – Simulación de préstamos  
+→ Se limita inicialmente a préstamos personales; hipotecas se añaden en versión futura.
+
+RF12 – Chat de soporte  
+→ Se implementará primero como chatbot básico, luego soporte humano.
+
+Requisitos rechazados:
+Ninguno.
