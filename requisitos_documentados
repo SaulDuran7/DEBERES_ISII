@@ -1,1 +1,52 @@
+Requisitos funcionales:
+RF1 – Autenticación segura
+Descripción: El usuario debe iniciar sesión con usuario y contraseña.
+Criterios de aceptación:
+CA1: Si el usuario introduce credenciales válidas, accede a la app.
+CA2: Si introduce credenciales incorrectas, se muestra error.
+CA3: Tras 5 intentos fallidos, la cuenta se bloquea temporalmente.
 
+RF2 – Autenticación biométrica
+Descripción: Permitir acceso mediante FaceID/TouchID.
+Criterios de aceptación:
+CA1: Si el dispositivo soporta biometría, debe ofrecerla.
+CA2: Si la biometría falla, se solicita contraseña.
+
+RF3 – Consulta de saldo
+Descripción: Mostrar el saldo actualizado de todas las cuentas del usuario.
+Criterios de aceptación:
+CA1: El saldo debe actualizarse en menos de 2 segundos.
+CA2: Debe mostrarse saldo disponible y saldo retenido.
+
+RF4 – Consulta de movimientos
+Descripción: Mostrar movimientos filtrados por fecha, tipo o categoría.
+Criterios de aceptación:
+CA1: El usuario puede filtrar por fecha.
+CA2: El usuario puede filtrar por ingresos/gastos.
+CA3: Los movimientos deben incluir fecha, importe y descripción.
+
+RF5 – Transferencias nacionales
+Descripción: Permitir transferencias dentro de España.
+Criterios de aceptación:
+CA1: Debe validar IBAN.
+CA2: Debe mostrar confirmación antes de enviar.
+CA3: Debe registrar la operación en el historial.
+
+RF6 – Transferencias internacionales
+Descripción: Permitir transferencias SEPA y SWIFT.
+Criterios de aceptación:
+CA1: Debe validar formato internacional.
+CA2: Debe mostrar comisiones antes de confirmar.
+
+RF7 – Gestión de tarjetas
+Descripción: Activar/desactivar tarjeta, cambiar límites, solicitar nueva.
+Criterios de aceptación:
+CA1: El usuario puede activar/desactivar la tarjeta.
+CA2: El usuario puede modificar límites diarios.
+CA3: El sistema debe reflejar los cambios en tiempo real.
+
+RF8 – Notificaciones en tiempo real
+Descripción: Enviar alertas por movimientos relevantes.
+Criterios de aceptación:
+CA1: Notificación instantánea tras un cargo o ingreso.
+CA2: El usuario puede activar/desactivar tipos de alertas.
